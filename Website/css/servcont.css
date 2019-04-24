@@ -1,0 +1,1876 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#mainbg {
+    width:100%;
+    height: 500px;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../imgs/services.png");
+    background-size: cover;
+}
+
+#mainbg h1 {
+    font-family: "Josefin Sans", "sans-serif";
+    padding-top: 175px;
+    font-weight: 500;
+    font-size: 120px;
+	line-height: 130px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+	margin:auto;
+}
+
+#mainbg h2 {
+	font-family: "Open Sans", "sans-serif";
+	font-size: 24px;
+	font-weight: 300;
+	text-transform: none;
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+	line-height:50px;
+}
+
+html h2 {
+	font-family: "Open Sans", "sans-serif";
+	font-size: 24px;
+	font-weight: 300;
+	text-transform: none;
+	letter-spacing: 1px;
+}
+
+html h3 {
+	font-size: 50px;
+  	line-height: 50px;
+  	padding-top: 50px;
+	padding-bottom: 50px;
+  	position: relative;
+	letter-spacing: 1px;
+  	text-align: center;
+	text-transform: uppercase;
+	font-family: "Josefin Sans", "sans-serif";
+	color:#008FAF;
+	margin: 0;
+}
+
+html h4 {
+	font-family: "Karla", "sans-serif";
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	margin-top: 0px;
+}
+
+html h5 {
+	font-family: "Karla", "sans-serif";
+	color: #008FAF;
+	font-size: 20px;
+	margin-bottom: 13px;
+	margin-top: 0px;
+	
+}
+
+html h6 {
+	font-family: "Josefin Sans", "sans serif";
+	font-size: 30px;
+	line-height: 33px;
+	text-transform: uppercase;
+	margin-top:0px;
+}
+
+
+html p {
+	font-family: "Karla", "sans-serif";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.servecirclestop {
+	padding-left: 194px;
+	padding-bottom: 350px;
+	padding-top: 50px;
+}
+
+.servecirclesbot {
+	padding-bottom: 400px;
+}
+
+.adultcir {
+	margin-left: 108px;
+}
+.circle-filter{
+	width:250px;
+	height:250px;
+	border-radius:50%;
+	display:block;
+	background:transparent;
+	overflow:hidden;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	margin-top:7px;
+}
+
+.circle-box{
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:url(../images/service/filter.png) no-repeat;
+	top:0px;
+	left:0px;
+	-webkit-transition: all 0.3s ease; /* Safari */
+    transition: all 0.3s ease;
+	opacity:1;
+	transform:scale(1);
+	-webkit-transform:scale(1);
+	border-radius:50%;
+}
+
+
+.border-ring:hover .circle-filter .circle-box {
+	opacity:0;
+	transform:scale(0);
+	-webkit-transform:scale(0);
+}
+
+.border-ringbottom:hover .circle-filter .circle-box {
+	opacity:0;
+	transform:scale(0);
+	-webkit-transform:scale(0);
+}
+	
+.border-ring{
+	border:2px solid transparent;
+	width:266px;
+	height:266px;
+	top:0px;
+	border-radius:50%;
+	position:relative;
+	-webkit-transition: all 0.5s ease; /* Safari */
+    transition: all 0.5s ease;
+	float: left;
+	margin-left: 120px;
+}
+
+.border-ringbottom {
+	border:2px solid transparent;
+	width:266px;
+	height:266px;
+	top:0px;
+	border-radius:50%;
+	position:relative;
+	-webkit-transition: all 0.5s ease; /* Safari */
+    transition: all 0.5s ease;
+	float: left;
+	margin-left: 120px;
+}
+
+.border-ring:hover{
+	border:2px solid #FADC32;
+	top:-20px;
+}
+
+.border-ringbottom:hover{
+	border:2px solid #FADC32;
+	top:-20px;
+}
+
+.service-row .border-ring:after{
+	
+}
+
+.service-row{
+	margin-top:40px;
+}
+
+.service-row .col-lg-3:after{
+	content:"";
+	width:17px;
+	height:17px;
+	background-color:#af346f;
+	border-radius:50%;
+	position:absolute;
+	right:-10px;
+	top:50%;
+}
+
+.service-row .col-lg-3:last-child:after{
+	display:none;
+}
+.services-txt {
+	margin-top:20px;
+	text-align:center;
+	overflow:hidden;
+}
+
+.services-txt h3 {
+	color:#008FAF;
+	margin:0px;
+	padding-bottom:8px;
+	margin-bottom:8px;
+}
+
+.service-row .col-lg-12{
+	min-height: 378px;
+	height: auto;
+}
+
+#children {
+	background-color: #FFFFFF;
+	height:840px;
+	padding-left: 100px;
+	padding-right: 40px;
+	padding-top: 100px;
+}
+
+
+#adult {
+	background-color: #008FAF;
+	height:1092px;
+	padding-left: 100px;
+	padding-right: 40px;
+	padding-top: 100px;
+}
+
+#family {
+	background-color: #FFFFFF;
+	height: 910px;
+	padding-left: 100px;
+	padding-right: 40px;
+}
+
+#psychological {
+	background-color: #008FAF;
+	height: 613px;
+	padding-left: 100px;
+	padding-right: 40px;
+	padding-top: 100px;
+}
+
+#enrichment {
+	background-color: #FFFFFF;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-top: 100px;
+	
+}
+
+#childdes {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../imgs/child.jpg");
+	padding-left:0px;
+}
+
+#adultdes {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../imgs/adult.jpg");
+	padding-left:0px;
+}
+
+#famdes {
+	width: 100%;
+	height: 500px;
+	margin: 0px auto 100px;
+	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../imgs/family.jpg");
+	padding-left:0px;
+/*	margin-bottom: 100px;*/
+}
+
+#psychdes {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../imgs/psych.jpg");
+	padding-left:0px;
+}
+
+#enrichdes {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2) ), url("../imgs/enrich.jpg");
+	padding-right: 100px;
+}
+
+#childdes h3, #adultdes h3, #famdes h3, #psychdes h3, #enrichdes h3 {
+	color: white;
+	padding-top: 200px;
+	padding-bottom: 20px;
+}
+
+#childdes h3:hover, #adultdes h3:hover, #famdes h3:hover, #psychdes h3:hover, #enrichdes h3:hover {
+	text-shadow: 4px 4px #F0B900;
+	transition: ease-in 0.3s;
+}
+
+#childdes h2, #adultdes h2, #famdes h2, #psychdes h2, #enrichdes h2 {
+	
+	font-family: "Open Sans", "sans-serif";
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: none;
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+	letter-spacing: 1px;
+	width: 80%;
+	margin:0 auto;
+	line-height: 25px;
+}
+
+#signform {
+	height: 900px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.about {
+	float: left;
+}
+
+.childpara, .adultpara, .fampara, .psychpara{
+	margin-right: 60px;
+	margin-bottom: 70px;
+	width: 44%;
+	float: left;
+	justify-content: flex-start;
+}
+
+
+
+#enrichment h6 {
+	font-family: "Josefin Sans", "sans serif";
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+
+#adult h3, #psychological h3 {
+	color:#FFFFFF;
+}
+
+#adult h6, #psychological h6 {
+	color:#FFFFFF;
+}
+
+#signform h3 {
+	color: #008FAF;
+}
+
+
+.enrichpara h5 {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.childpara p {
+	color: #141414;
+}
+
+.fampara p {
+	color: #141414;
+}
+
+.adultpara p {
+	color: #FFFFFF;
+}
+
+.psychpara p {
+	color: #FFFFFF;
+}
+
+.text p{
+	width: 57%;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.enrichpara {
+	margin-bottom: 200px;
+}
+
+.odd .text p { 
+	margin-right: 60px;
+}
+.odd img {
+	width: 37%;
+	float: left;
+}
+
+.even img {
+	width: 37%;
+	float: left;
+	margin-right: 60px;
+}
+
+.note {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+table {
+	margin-bottom: 5px;
+	text-align: center;
+	font-family: "Karla", "sans-serif";
+	font-size: 20px;
+	width: 100%;
+
+}
+
+.odd {
+	margin-bottom: 100px;
+}
+
+.even {
+	margin-bottom: 100px;
+}
+
+table .col {
+	font-size: 22px;
+	color: #008FAF;
+}
+
+th, td {
+	padding:15px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.signup {
+  background-color: #008FAF;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: "Josefin Sans";
+  margin-right: 100px;
+	margin-top: 10px;
+  border-radius: 15px;
+  letter-spacing: 1px;
+	float: right;
+}
+
+.signup:hover {
+   background-color: #00A3C7;
+    color: white;
+    transition: ease-in 0.1s;
+}
+
+.signupwhite {
+  background-color: #FFFFFF;
+  border: none;
+  color: #0090B3;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: "montserrat";
+  margin-right: 60px;
+margin-top: 10px;
+  border-radius: 15px;
+  letter-spacing: 1px;
+	float: right;
+}
+
+.signupwhite:hover {
+	
+	background-color: #008FAF;
+    color: white;
+    transition: ease-in 0.1s;
+}
+
+#signform input[type="text"] {
+	font-family: "Karla", "sans-serif";
+	
+	width: 98%;
+	height: 18px;
+	background-color: #FFFFFF;
+	
+	float:left;
+	padding: 10px;
+	margin-top: 0px;
+	margin-bottom:30px;
+	
+	border-width: 1px;
+	border-color: #008FAF;
+	border-radius: 5px;
+	outline:none; /* remove DS*/
+	
+	color:#141414;
+	font-size: 16px;
+}
+
+#signform input[type="email"] {
+	font-family: "Karla", "sans-serif";
+	
+	width: 98%;
+	height: 18px;
+	background-color: #FFFFFF;
+	
+	float:left;
+	padding: 10px;
+	margin-bottom:30px;
+	margin-top: 0px;
+	
+	border-width: 1px;
+	border-color: #008FAF;
+	border-radius: 5px;
+	outline:none; /* remove DS*/
+	
+	color:#141414;
+	font-size: 16px;
+}
+
+#signform input[type="number"] {
+	font-family: "Karla", "sans-serif";
+	
+	width: 98%;
+	height: 18px;
+	background-color: #FFFFFF;
+	
+	float:left;
+	padding: 10px;
+	margin-top: 0px;
+	margin-bottom:30px;
+	
+	border-width: 1px;
+	border-color: #008FAF;
+	border-radius: 5px;
+	outline:none; /* remove DS*/
+	
+	color:#141414;
+	font-size: 16px;
+}
+
+
+#signform textarea {
+	font-family: "Karla", "sans-serif";
+	width: 98%;
+	height: 200px;
+	background-color: #FFFFFF;
+
+	
+	float:left;
+	
+	padding: 10px;
+	margin-top: 0px;
+	border-width: 1px;
+	border-color: #008FAF;
+	border-radius: 5px;
+	outline:none; /* remove DS*/
+	
+	color: 141414;
+	font-size: 16px;
+	
+	resize: none
+}
+
+#signform input[type="text"]::placeholder,
+#signform textarea::placeholder,
+#signform select::placeholder,
+#signform input[type="email"]::placeholder,
+#signform input[type="number"]::placeholder{
+	color: #959191;
+	font-size: 14px;
+	font-family: "Karla", "sans-serif";
+} /* dont have more than 8 fields*/
+
+
+
+
+#signform input[type="submit"] {
+
+	background-color: #008FAF;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	font-family: "Montserrat", "sans-serif";
+	margin-top: 40px;
+	border-radius: 15px;
+	letter-spacing: 1px;
+	width: 80px;
+	outline: none;
+	float: right;
+
+} 
+
+#signform input[type="submit"]:hover {
+
+	background-color: #00A3C7 ;
+    color: white;
+    transition: ease-in 0.1s;
+}
+
+@media only screen and (max-width:1257px){
+
+
+}
+@media only screen and (max-width:1236px){
+
+.border-ring{
+	margin-left: 119px;
+}
+
+.border-ringbottom {
+	
+	margin-left: 119px;
+}
+}
+
+@media only screen and (max-width:1236px){
+
+	#adult {
+		height: 1190px;
+	}
+}
+@media only screen and (max-width:1226px){
+
+.border-ring{
+	margin-left: 117px;
+}
+
+.border-ringbottom {
+	
+	margin-left: 117px;
+}
+}
+
+@media only screen and (max-width:1199px){
+
+.text p {
+		width: 56%
+	}
+}
+}
+
+@media only screen and (max-width:1169px){
+
+.border-ring{
+	margin-left: 113px;
+}
+
+.border-ringbottom {
+	
+	margin-left: 113px;
+}
+}
+
+@media only screen and (max-width:1160px){
+
+.border-ring{
+	margin-left: 105px;
+}
+
+.border-ringbottom {
+	
+	margin-left: 105px;
+}
+}
+
+@media only screen and (max-width:1139px){
+
+.border-ring{
+	margin-left: 100px;
+}
+
+.border-ringbottom {
+	
+	margin-left: 100px;
+}
+	
+.childpara, .adultpara, .fampara, .psychpara{ 
+	width: 43%;
+	}
+	
+#children {
+	height: 1070px;	
+}
+
+#adult {
+	height: 1240px;	
+}
+
+#family {
+	height: 930px;	
+}
+
+#psychological {
+	height: 690px;	
+}
+}
+
+@media only screen and (max-width:1124px){
+
+.border-ring{
+	margin-left: 95px;
+}
+
+.border-ringbottom {
+	
+	margin-left: 95px;
+}
+}
+
+@media only screen and (max-width:1109px){
+
+.border-ring{
+	margin-left: 90px;
+}
+
+.border-ringbottom {
+	
+	margin-left: 90px;
+}
+}
+
+
+@media only screen and (max-width:1094px){
+
+.border-ring{
+	margin-left: 89px;
+}
+
+.border-ringbottom {
+	
+	margin-left: 89px;
+}
+}
+
+@media only screen and (max-width:1080px){
+
+.border-ring{
+	margin-left: 85px;
+}
+
+.border-ringbottom {
+	
+	margin-left: 85px;
+}
+}
+
+@media only screen and (max-width:1066px){
+
+.border-ring{
+	margin-left: 80px;
+}
+
+.border-ringbottom {
+	
+	margin-left: 80px;
+}
+	
+#children {
+	height: 1070px;	
+}
+
+#adult {
+	height: 1340px;	
+}
+
+#family {
+	height: 1030px;	
+}
+
+#psychological {
+	height: 690px;	
+}
+
+}
+
+@media only screen and (max-width:1056px){
+
+.text p {
+		width: 55%
+	}
+}
+
+@media only screen and (max-width:1055px){
+
+.border-ring{
+	margin-left: 75px;
+}
+
+.border-ringbottom {
+	
+	margin-left: 75px;
+}
+}
+
+@media only screen and (max-width:1042px){
+
+.border-ring{
+	margin-left: 74px;
+}
+
+.border-ringbottom {
+	
+	margin-left: 74px;
+}
+}
+
+
+@media only screen and (max-width:1034px){
+
+.border-ring{
+	margin-left: 70px;
+}
+
+.border-ringbottom {
+	
+	margin-left: 70px;
+}
+}
+
+@media only screen and (max-width:1028px){
+
+.border-ring{
+	margin-left: 65px;
+}
+
+.border-ringbottom {
+	
+	margin-left: 65px;
+}
+}
+
+@media only screen and (max-width:1024px){
+
+#mainbg {
+    height:400px;
+
+}
+	
+#mainbg h1 {
+    padding-top: 125px;
+}
+	
+#mainbg h2 {
+    font-size: 20px;
+}
+
+#circles{
+	padding-left: 100px;
+	padding-right:100px;
+	height: 820px;
+}
+
+.servecirclestop {
+	padding-left: 0px;
+	padding-bottom: 350px;
+}
+
+.servecirclesbot {
+	padding-bottom: 400px;
+}
+	
+
+.adultcir {
+	margin-left: 0px;
+}
+
+.border-ring{
+	margin-left: 83px;
+}
+
+.border-ringbottom {
+	margin-left: 0px;
+}
+
+#children, #family, #psychological, #adult {
+	padding-right: 50px;	
+}
+
+.childpara, .adultpara, .fampara, .psychpara {
+    margin-right: 50px;
+	margin-bottom: 60px;
+}
+
+h4 {
+	font-size: 18px;	
+	}
+
+#childdes {
+	width: 100%;
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../imgs/chil1024.jpg");
+	padding-left:0px;
+}
+
+#adultdes {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../imgs/adu1024.jpg");
+	padding-left:0px;
+}
+
+#famdes {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../imgs/fam1024.jpg");
+	padding-left:0px;
+}
+
+#psychdes {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../imgs/psy1024.jpg");
+	padding-left:0px;
+}
+	
+#enrichdes {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2) ), url("../imgs/enri1024.jpg");
+	padding-left:0px;
+	margin-bottom: 50px;
+}
+
+#children {
+	height: 1170px;	
+}
+
+#adult {
+	height: 1340px;	
+}
+
+#family {
+	height: 1130px;	
+}
+
+#psychological {
+	height: 890px;	
+}
+	
+#enrichment {
+	padding-right: 100px;
+}
+
+.about {
+	width: 100%;
+}
+	
+.text p {
+	width:100%;
+}
+	
+.odd .text p{ 
+	margin-right: 20px;
+}
+
+table {
+	margin-bottom: 5px;
+	text-align: center;
+	font-family: "Karla", "sans-serif";
+	font-size: 15px;
+
+}
+
+table .col {
+	font-size: 17px;
+	color: #008FAF
+}
+
+th, td {
+	padding:15px;
+}
+
+table, th, td {
+  	border: 1px solid black;
+  	border-collapse: collapse;
+}
+
+.odd img, .even img{
+	margin-bottom: 50px;
+	width:100%
+	}
+
+.even img {
+	margin-right: 20px;
+}	
+	
+.signup {
+	margin-right: 60px;	
+}
+	
+
+#signform {
+	padding-left: 100px;
+	padding-right: 100px;
+	}
+	
+#signform input[type="text"] {
+    width: 802px;
+}
+	
+#signform input[type="number"] {
+    width: 802px;
+}
+#signform input[type="email"] {
+    width: 802px;
+}
+	
+#signform textarea {
+    width: 802px;
+}
+}
+
+@media only screen and (max-width:1023px){
+#signform input[type="text"] {
+    width: 98%;
+}
+	
+#signform input[type="number"] {
+    width: 98%;
+}
+#signform input[type="email"] {
+    width: 98%;
+}
+	
+#signform textarea {
+    width: 96%;
+}
+	
+.border-ring{
+	margin-left: 83px;
+}
+
+.border-ringbottom {
+	margin-left: -15px;
+}
+}
+}
+
+@media only screen and (max-width:1017px){
+	.childpara, .adultpara, .fampara, .psychpara{
+	width: 42%;
+	
+}
+
+}
+
+@media only screen and (max-width:1016px){
+.border-ring{
+	margin-left: 83px;
+}
+
+.border-ringbottom {
+	margin-left: -10px;
+}
+	
+#children {
+	height: 1270px;	
+}
+
+#adult {
+	height: 1440px;	
+}
+
+#family {
+	height: 1230px;	
+}
+
+#psychological {
+	height: 990px;	
+}
+}
+
+@media only screen and (max-width:980px){
+border-ring{
+	margin-left: 83px;
+}
+
+.border-ringbottom {
+	margin-left: -15px;
+}
+}
+
+@media only screen and (max-width:964px){
+.circle-filter{
+	width:170px;
+	height:170px;
+}
+	
+.border-ring{
+	width:185px;
+	height:185px;
+	margin-left: 60px;
+}
+
+.border-ringbottom {
+	margin-left: 0px;
+	width:185px;
+	height:185px;
+}
+}
+
+@media only screen and (max-width:964px){
+#children {
+	height: 1370px;	
+}
+
+#adult {
+	height: 1740px;	
+}
+
+#family {
+	height: 1230px;	
+}
+
+#psychological {
+	height: 990px;	
+}
+}
+
+@media only screen and (max-width:864px){
+.childpara, .adultpara, .fampara, .psychpara{
+	width: 41%;
+}
+	
+#children {
+	height: 1270px;	
+}
+
+#adult {
+	height: 1740px;	
+}
+
+#family {
+	height: 1230px;	
+}
+
+#psychological {
+	height: 990px;	
+}
+}
+
+@media only screen and (max-width:780px){
+
+	
+#children {
+	height: 1470px;	
+}
+
+#adult {
+	height: 1840px;	
+}
+
+#family {
+	height: 1330px;	
+}
+
+#psychological {
+	height: 990px;	
+}
+}
+
+@media only screen and (max-width:768px){
+	
+#mainbg {
+    height:400px;
+}
+	
+#mainbg h1 {
+    padding-top: 150px;
+    font-size: 80px;
+	line-height: 90px;
+}
+	
+#mainbg h2 {
+    font-size: 16px;
+}
+
+#circles{
+	padding-left: 100px;
+	padding-right:100px;
+	height:600px
+}
+
+.servecirclestop {
+	padding-left: 0px;
+	padding-bottom: 250px;
+}
+
+.servecirclesbot {
+	padding-bottom: 400px;
+}
+
+.adultcir {
+	margin-left: 0px;
+}
+
+
+.circle-filter{
+	width:170px;
+	height:170px;
+}
+	
+.border-ring{
+	width:185px;
+	height:185px;
+	margin-left: 48px;
+}
+
+.border-ringbottom {
+	margin-left: 0px;
+	width:185px;
+	height:185px;
+}
+
+.circle-filter.service-1 img{
+	margin-left:-30px;
+}
+
+.circle-filter.service-3 img{
+	margin-left:-40px;
+}
+
+.circle-filter.service-4 img{
+	margin-left:-80px;
+	margin-top: -40px;
+}
+
+.circle-filter.service-5 img{
+	margin-left:-30px;
+	margin-top: -30px;
+}
+
+.circle-box {
+	width:80%;
+	height:80%;
+	}
+
+#children, #family, #psychological, #enrichment, #adult {
+	padding-right: 100px;	
+}
+
+.childpara, .adultpara, .fampara, .psychpara {
+    margin-right: 0px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+
+#children {
+	height: 1215px;	
+}
+
+#adult {
+	height: 1820px;	
+}
+
+#family {
+	height: 1348px;	
+}
+
+#psychological {
+	height: 885px;	
+}
+
+	
+#enrichment {
+	margin-top: 0px;
+}
+	
+#enrichimg {
+	width: 100%;	
+	margin-bottom: 50px;
+	}
+
+#childdes, #adultdes, #famdes, #psychdes, #enrichdes {
+	height: 300px;
+}
+
+#childdes {
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../imgs/chil768.jpg");
+}
+	
+#adultdes {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../imgs/adu768.jpg");
+}
+
+#famdes {
+	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../imgs/fam768.jpg");
+}
+	
+#psydes {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../imgs/psy768.jpg");
+}
+	
+#enrichdes {
+
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2) ), url("../imgs/enri768.jpg");
+}
+	
+#childdes h3, #adultdes h3, #famdes h3, #psychdes h3, #enrichdes h3 {
+	padding-top: 75px;
+	font-size: 40px;
+}
+
+#childdes h2, #adultdes h2, #famdes h2, #psychdes h2, #enrichdes h2 {
+	width: 80%
+}
+
+
+#enrichdes {
+	margin-bottom:100px;
+}
+	
+.text p {
+	width:100%;
+}
+
+table {
+	margin-bottom: 5px;
+	text-align: center;
+	font-family: "Karla", "sans-serif";
+	font-size: 15px;
+	width: 100%;
+
+}
+
+table .col {
+	font-size: 17px;
+	color: #008FAF
+}
+
+th, td {
+	padding:15px;
+
+	}
+
+#enrichment img{
+	width: 100%;
+	margin-bottom: 50px;
+	}
+
+.signup {
+	margin-right: 60px;	
+}
+
+#signform {
+	padding-left: 100px;
+	padding-right: 100px;
+	}	
+	
+#signform input[type="text"], #signform input[type="number"],
+#signform input[type="email"], #signform textarea	{
+    width: 545px;
+}
+	
+}
+
+@media only screen and (max-width:767px){
+.circle-filter{
+	width:250px;
+	height:250px;
+	}
+	
+.border-ring{
+	width:265px;
+	height:265px;
+	margin-left: 25%;
+}
+	
+	
+.border-ringbottom{
+	width:265px;
+	height:265px;
+	margin-left: 25%;
+}
+	
+#circles {
+	height:1800px;
+}
+	
+.services-txt {
+    margin-top: 20px;
+}
+
+
+.border-ring {
+    margin-bottom: 80px;
+	
+}
+
+.border-ringbottom {
+	margin-bottom: 80px;
+	width: 265px;
+    height: 265px;
+	
+}
+	
+.circle-filter.service-1 img{
+	margin-left:0px;
+}
+
+.circle-filter.service-3 img{
+	margin-left:0px;
+}
+
+.circle-filter.service-4 img{
+	margin-left:0px;
+	margin-top: 0px;
+}
+
+.circle-filter.service-5 img{
+	margin-left:0px;
+	margin-top:0px;
+}
+
+	
+#signform input[type="text"] {
+    width: 98%;
+}
+	
+#signform input[type="number"] {
+    width: 98%;
+}
+#signform input[type="email"] {
+    width: 98%;
+}
+	
+#signform textarea {
+    width: 96%;
+}
+
+#children {
+	height: 1434px;	
+}
+	
+#adult {
+	height: 1920px;	
+}
+}
+
+@media only screen and (max-width:751px){
+
+
+.border-ringbottom {
+	margin-left: -10px;
+}
+	
+#mainbg h1 {
+    padding-top: 100px;
+	line-height: 87px;
+}
+	
+#mainbg h2 {
+	line-height: 20px;	
+}
+
+
+}
+
+
+
+@media only screen and (max-width:736px){
+.border-ring{
+	margin-left: 35px;
+}
+
+.border-ringbottom {
+	margin-left: -15px;
+}
+}
+
+
+
+@media only screen and (max-width:706px){
+
+#children {
+	height: 1315px;	
+}
+
+#adult {
+	height: 1920px;	
+}
+
+#family {
+	height: 1448px;	
+}
+
+#psychological {
+	height: 985px;	
+}
+	
+}
+
+
+
+@media only screen and (max-width:668px){
+
+
+#childdes h3, #adultdes h3, #famdes h3, #psychdes h3  {
+padding-top: 75px;
+	}
+	
+#psychdes h3, #enrichdes h3	{
+	padding-top: 50px;
+	}
+	
+}
+
+
+@media only screen and (max-width:668px){
+#children {
+	height: 1515px;	
+}
+
+#adult {
+	height: 2220px;	
+}
+
+#family {
+	height: 1648px;	
+}
+
+#psychological {
+	height: 1185px;	
+}
+}
+
+@media only screen and (max-width:586px){
+#children {
+	height: 1615px;	
+}
+
+#adult {
+	height: 2320px;	
+}
+
+#family {
+	height: 1748px;	
+}
+
+#psychological {
+	height: 1285px;	
+}
+}
+
+@media only screen and (max-width:555px){
+#children {
+	height: 1715px;	
+}
+
+#adult {
+	height: 2420px;	
+}
+
+#family {
+	height: 1848px;	
+}
+
+#psychological {
+	height: 1385px;	
+}
+}
+
+@media only screen and (max-width:549px){
+#children {
+	height: 1815px;	
+}
+
+#adult {
+	height: 2620px;	
+}
+
+#family {
+	height: 1948px;	
+}
+
+#psychological {
+	height: 1485px;	
+}
+}
+
+
+@media only screen and (max-width:513px){
+#children {
+	height: 1915px;	
+}
+
+#adult {
+	height: 2820px;	
+}
+
+#family {
+	height: 2048px;	
+}
+
+#psychological {
+	height: 1585px;	
+}
+
+@media only screen and (max-width:504px){
+#children {
+	height: 1915px;	
+}
+
+#adult {
+	height: 2920px;	
+}
+
+#family {
+	height: 2048px;	
+}
+
+#psychological {
+	height: 1585px;	
+}
+}@media only screen and (max-width:499px){
+#children {
+	height: 2015px;	
+}
+
+#adult {
+	height: 3020px;	
+}
+
+#family {
+	height: 2148px;	
+}
+
+#psychological {
+	height: 1685px;	
+}
+}
+
+
+
+@media only screen and (max-width:481px){
+#children {
+	height: 2100px;	
+}
+
+#adult {
+	height: 2950px;	
+}
+
+#family {
+	height: 2178px;	
+}
+
+#psychological {
+	height: 1130px;	
+}
+}
+
+
+@media only screen and (max-width:480px){
+
+#mainbg {
+	height:300px;
+}	
+	
+	
+#mainbg h1 {
+    padding-top: 100px;
+	line-height: 87px;
+}
+	
+#mainbg h2 {
+	line-height: 20px;	
+}
+	
+.circle-filter{
+	width:250px;
+	height:250px;
+	}
+	
+.border-ring{
+	width:265px;
+	height:265px;
+	margin-left: 0px;
+}
+	
+	
+.border-ringbottom{
+	width:265px;
+	height:265px;
+	margin-left: 0px;
+}
+	
+
+	
+.services-txt {
+    margin-top: 20px;
+}
+
+
+.border-ring {
+    margin-bottom: 80px;
+	
+}
+
+.border-ringbottom {
+	margin-bottom: 80px;
+	width: 265px;
+    height: 265px;
+	
+}
+	
+.circle-filter.service-1 img{
+	margin-left:0px;
+}
+
+.circle-filter.service-3 img{
+	margin-left:0px;
+}
+
+.circle-filter.service-4 img{
+	margin-left:0px;
+	margin-top: 0px;
+}
+
+.circle-filter.service-5 img{
+	margin-left:0px;
+	margin-top:0px;
+}
+	
+#childdes {
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../imgs/chil480.jpg");
+}
+	
+#adultdes {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../imgs/adu480.jpg");
+}
+
+#famdes {
+	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../imgs/fam480.jpg");
+}
+	
+#psydes {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../imgs/psy480.jpg");
+}
+	
+#enrichdes {
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2) ), url("../imgs/enri480.jpg");
+}
+
+#circles{
+	padding-left: 100px;
+	padding-right:100px;
+	height:1800px
+}
+
+#children, #family, #psychological, #enrichment, #adult {
+	padding-right: 50px;	
+	padding-left: 50px;
+}
+
+#children img, #adult img, #family img, #psychological img {
+	width: 380px;
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 50px;
+}
+
+#children h4, #family h4, #psychological h4, #adult h4{
+	width: 380px;
+	font-size: 18px;
+}
+
+#children p, #family p, #psychological p, #adult p, #enrichment p{
+	width: 380px;
+	font-size: 16px;
+	
+}
+	
+#childdes h3, #adultdes h3, #famdes h3, #psychdes h3, #enrichdes h3 {
+	padding-top: 50px;
+	font-size: 30px;
+}
+
+#childdes h2, #adultdes h2, #famdes h2, #psychdes h2, #enrichdes h2 {
+	width: 380px
+}
+
+#children {
+	height: 1434px;	
+}
+	
+#childdes {
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../imgs/chil480.jpg");
+}
+
+#adult {
+	height: 2005px;	
+}
+
+#family {
+	height: 1630px;	
+}
+
+#psychological {
+	height: 1040px;	
+}
+
+#enrichment img {
+	width: 380px;	
+	margin-bottom: 50px;
+	}
+
+#enrichdes {
+	height: 270px;
+}
+
+table {
+	margin-bottom: 5px;
+	text-align: center;
+	font-family: "Karla", "sans-serif";
+	font-size: 13px;
+	width: 380px;
+
+}
+
+table .col {
+	font-size: 15px;
+	color: #008FAF
+}
+
+th, td {
+	padding:5px;
+}
+
+table, th, td {
+  	border: 1px solid black;
+  	border-collapse: collapse;
+}
+	
+.note {
+	font-size:12px;	
+}
+
+#signform {
+	padding-left: 50px;
+	padding-right: 50px;
+	}	
+	
+#signform h3 {
+	padding-top: 0px;
+	}
+
+#signform input[type="text"], #signform input[type="number"],
+#signform input[type="email"], #signform textarea	{
+    width: 358px;
+}
+
+}

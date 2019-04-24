@@ -1,0 +1,870 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#mainbg {
+    width:100%;
+    height: 500px;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../imgs/involve.jpg");
+    background-size: cover;
+}
+
+#mainbg h1 {
+    font-family: "Josefin Sans", "sans-serif";
+    padding-top: 100px;
+    font-weight: 500;
+    font-size: 120px;
+	line-height: 130px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+	margin:auto;
+    max-width: 1280px;
+}
+
+#mainbg h2 {
+	font-family: "Open Sans", "sans-serif";
+	font-size: 24px;
+	font-weight: 300;
+	text-transform: none;
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+	line-height:50px;
+}
+
+html h3 {
+	font-size: 50px;
+  	line-height: 50px;
+	padding-bottom: 50px;
+  	position: relative;
+	letter-spacing: 1px;
+  	text-align: center;
+	text-transform: uppercase;
+	font-family: "Josefin Sans", "sans-serif";
+	color:#008FAF;
+	margin: 0;
+}
+
+#description {
+	height: 610px;
+}
+
+#words {
+	float: left;
+}
+
+#button {
+  display: inline-block;
+  background-color: #008FAF;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#description h2 {
+	font-family: "Josefin Sans", "sans-serif";
+	color:#008FAF;
+	font-size: 60px;
+	font-weight: 800px;
+	padding-left: 100px;
+	line-height: 85px;
+	margin-top: 50px;
+	text-transform: uppercase;
+}
+
+#description p { 
+	font-family: "Karla", "sans-serif";
+	margin-left: 100px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 30px;
+	margin-bottom: 30px;
+	width: 600px;
+	color: #141414;
+}
+
+
+.circle {
+	width:34%;
+	border-radius:50%;
+	float:right;
+    margin-right: 100px;
+	margin-top: 100px;
+    text-align: right;
+}
+
+
+.donatelogos {
+	width: 260px;
+	max-height: 350px;
+	padding: 40px;
+	float: left;
+}
+
+#donatebox1 {
+	 display: flex;
+    justify-content: flex-start;
+	padding-bottom: 0px;
+}
+
+#donatebox2 {
+	 display: flex;
+    justify-content: flex-start;
+}
+
+
+.donatebox {
+	margin-top:50px;
+	width: 347px;
+	height:350px;
+	background-color: #EDF8F8;
+	margin-right: 20px;
+	transition: all .2s ease-in-out; 
+}
+
+.donatebox:hover { 
+	transform: scale(1.1); 
+	opacity: 0.8;
+	background-color: #FADC32;
+}
+
+
+.donatebox h3 {
+	margin: 0 20px;
+	font-family: "karla","sans-serif";
+	font-size: 20px;
+	text-align: center;
+	line-height: 23px;	
+	text-transform: none;
+
+}
+
+.donateboxes {
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 850px;
+	width: 100%;
+	background-color: white;
+	 
+}
+
+.donatetext {
+	padding-bottom: 50px;
+	color: #141414
+}
+
+#donatevolbox {
+    max-width: 1280px;
+    margin: 0 100px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+	background-color: white;
+
+}
+
+#givingbox {
+  align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 486px;
+ 
+}
+
+#cheque {
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 400px;
+}
+
+#cheque h3{
+    color: #008FAF;
+   	text-align: center;
+    letter-spacing: 1px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 50px;
+
+}
+
+#cheque p {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+#cheque h6 {
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin: 0;
+}
+
+
+#career {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+	height:440px;
+}
+
+
+
+#career p {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 20px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 0px;
+}
+
+
+.note {
+	font-size:15px;
+}
+h4 {
+	font-family: "Karla", "sans-serif";
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: center;
+	color: #141414;
+}
+
+
+.grow { 
+transition: all .2s ease-in-out; 
+}
+ 
+.grow:hover { 
+transform: scale(1.1); 
+}
+
+@media only screen and (max-width:1278px){
+	
+.circle {
+	display: none;
+}
+	
+.donatelogos {
+	width: 212px;
+	max-height: 350px;
+	padding: 23px;
+	float: left;
+}
+
+.donatebox {
+	width: 261px;
+	height:300px;
+}
+
+.donateboxes {
+	height: 750px;
+	 
+}
+}
+
+@media only screen and (max-width:1122px){
+	#cheque {
+		height: 540px;
+	}
+}
+
+@media only screen and (max-width:1024px){
+
+#mainbg {
+    height:400px;
+
+}
+	
+#mainbg h1 {
+    padding-top: 50px;
+}
+	
+#mainbg h2 {
+    font-size: 20px;
+}
+
+#description {
+	height: 650px;
+}
+	
+#description h2 {
+	font-size: 55px;
+	line-height: 65px;
+}
+
+#description p {
+	width: 500px;	
+}
+	
+#description .circle {
+	display: block;
+	width: 300px;
+    height: 300px;
+	margin-top: 200px;
+	}
+
+
+
+#cheque {
+	padding-left: 100px;
+	padding-right: 100px;
+	height: 540px;
+}
+
+#cheque p, #cheque h6 { 
+	width: 624px;
+	padding-left: 0px;
+    padding-right: 0px;
+	margin-right:0px;
+}
+}
+
+@media only screen and (max-width:1015px){
+#description .circle {
+	display: none;
+	}
+}
+
+@media only screen and (max-width:941px){
+	
+.donatelogos {
+	width: 140px;
+	max-height: 350px;
+	padding: 20px;
+	float: left;
+}
+
+#donatebox1 {
+    justify-content: flex-start;
+	padding-bottom: 0px;
+}
+
+#donatebox2 {
+    justify-content: flex-start;
+}
+
+
+.donatebox {
+	margin-top:50px;
+	width: 176px;
+	height:240px;
+	margin-right: 20px;
+	transition: all .2s ease-in-out; 
+}
+
+.donatebox h3 {
+	margin: 0 20px;
+	font-family: "karla","sans-serif";
+	font-size: 15px;
+	text-align: center;
+	line-height: 17px;	
+
+}
+
+.donateboxes {
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 650px;
+	background-color: white;
+	 
+}
+
+.donatetext {
+	padding-bottom: 50px;
+	color: #141414
+}
+}
+
+@media only screen and (max-width:768px){
+	
+#mainbg {
+	width:768px;
+    height:400px;
+}
+	
+#mainbg h1 {
+    padding-top: 100px;
+    font-size: 80px;
+	line-height: 90px;
+}
+	
+#mainbg h2 {
+    font-size: 16px;
+}
+
+.circle {
+	display:none;
+}
+
+#description {
+	height: 630px;
+}	
+
+#description h2 {
+	font-size: 60px;
+	line-height: 85px;
+}
+	
+#description p {
+	width: 568px;	
+}
+	
+
+.donatelogos {
+	width: 140px;
+	max-height: 350px;
+	padding: 20px;
+	float: left;
+}
+
+#donatebox1 {
+    justify-content: flex-start;
+	padding-bottom: 0px;
+}
+
+#donatebox2 {
+    justify-content: flex-start;
+}
+
+
+.donatebox {
+	margin-top:50px;
+	width: 176px;
+	height:240px;
+	margin-right: 20px;
+	transition: all .2s ease-in-out; 
+}
+
+.donatebox h3 {
+	margin: 0 20px;
+	font-family: "karla","sans-serif";
+	font-size: 15px;
+	text-align: center;
+	line-height: 17px;	
+
+}
+
+.donateboxes {
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 650px;
+	background-color: white;
+	 
+}
+
+.donatetext {
+	padding-bottom: 50px;
+	color: #141414
+}
+
+#cheque {
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 0px;
+	margin-right:0px;
+	height: 550px;
+}	
+	
+#cheque p, #cheque h6 { 
+	width: 568px;
+	padding-left: 0px;
+    padding-right: 0px;
+	margin-right:0px;
+}
+	
+#career {
+	height: 470px	
+}
+	
+#career p {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+}
+/*
+
+@media only screen and (max-width:723px) {
+  
+    
+    
+#mainbg {
+	height:300px;
+}	
+	
+	
+#mainbg h1 {
+    padding-top: 50px;
+	line-height: 87px;
+    width:80%;
+}
+	
+#mainbg h2 {
+	line-height: 20px;	
+}
+
+
+.circle {
+	display:none;
+}
+
+#description {
+	height: 800px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 0px;
+	margin-right:0px;
+}	
+
+#description h2 {
+	font-size: 64px;
+	line-height: 70px;
+	padding-left: 0px;
+}
+	
+#description p {
+	width: 380px;	
+	margin-left:0px;
+	font-size: 16px;
+}
+	
+
+.donatelogos {
+	width: 300px;
+	max-height: 350px;
+	padding: 40px;
+	float: left;
+}
+
+#donatebox1 {
+	padding-bottom: 0px;
+	justify-content: center;
+	display: block;
+}
+
+#donatebox2 {
+	padding-bottom: 0px;
+	justify-content: center;
+	display: block;
+}
+
+
+.donatebox {
+	margin-top:50px;
+	width: 380px;
+	height:350px;
+	margin-right: 10px;
+	transition: all .2s ease-in-out; 
+}
+
+.donatebox h3 {
+	font-family: "karla","sans-serif";
+	font-size: 20px;
+	text-align: center;
+	line-height: 20px;	
+	width: 300px;
+	margin: auto;
+
+}
+
+.donateboxes {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 2400px;
+	background-color: white;
+	 
+}
+
+.donatetext {
+	padding-bottom: 50px;
+	color: #141414
+}
+
+#cheque {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 0px;
+	margin-right:0px;
+	height: 650px;
+}	
+	
+#cheque p, #cheque h6 { 
+	width: 380px;
+	padding-left: 0px;
+    padding-right: 0px;
+	margin-right:0px;
+}
+
+#cheque h3 {
+	line-height: 50px;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+#cheque p {
+	font-size: 16px;	
+}
+
+#career {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 500px;
+}	
+
+#career h3{
+	font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #008FAF;
+   	text-align: center;
+    letter-spacing: 1px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	font-family: "raleway", "sans-serif";
+
+#career h3 {
+	font-size: 40px;
+
+}
+
+#career h4 {
+	margin-top: 0px;
+}
+
+#career p {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+}
+    
+}
+*/
+
+
+@media only screen and (max-width:480px){
+
+#mainbg {
+	height:300px;
+    max-width: 480px;
+        text-align: center;
+    align-content: center;
+}	
+	
+	
+#mainbg h1 {
+    padding-top: 100px;
+    padding-left: 0px;
+	line-height: 50px;
+   font-size: 40px;
+    text-align: center;
+    align-content: center;
+}
+	
+#mainbg h2 {
+	line-height: 20px;	
+}
+
+
+.circle {
+	display:none;
+}
+
+#description {
+	height: 800px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 0px;
+	margin-right:0px;
+}	
+
+#description h2 {
+	font-size: 64px;
+	line-height: 70px;
+	padding-left: 0px;
+}
+	
+#description p {
+	width: 380px;	
+	margin-left:0px;
+	font-size: 16px;
+}
+	
+
+.donatelogos {
+	width: 300px;
+	max-height: 350px;
+	padding: 40px;
+	float: left;
+}
+
+#donatebox1 {
+	padding-bottom: 0px;
+	justify-content: center;
+	display: block;
+}
+
+#donatebox2 {
+	padding-bottom: 0px;
+	justify-content: center;
+	display: block;
+}
+
+
+.donatebox {
+	margin-top:50px;
+	width: 380px;
+	height:350px;
+	margin-right: 10px;
+	transition: all .2s ease-in-out; 
+}
+
+.donatebox h3 {
+	font-family: "karla","sans-serif";
+	font-size: 20px;
+	text-align: center;
+	line-height: 20px;	
+	width: 300px;
+	margin: auto;
+
+}
+
+.donateboxes {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 2400px;
+	background-color: white;
+	 
+}
+
+.donatetext {
+	padding-bottom: 50px;
+	color: #141414
+}
+
+#cheque {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 0px;
+	margin-right:0px;
+	height: 650px;
+}	
+	
+#cheque p, #cheque h6 { 
+	width: 380px;
+	padding-left: 0px;
+    padding-right: 0px;
+	margin-right:0px;
+}
+
+#cheque h3 {
+	line-height: 50px;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+#cheque p {
+	font-size: 16px;	
+}
+
+#career {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 500px;
+}	
+
+/*
+#career h3{
+	font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #008FAF;
+   	text-align: center;
+    letter-spacing: 1px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	font-family: "raleway", "sans-serif";
+*/
+
+#career h3 {
+	font-size: 40px;
+
+}
+
+#career h4 {
+	margin-top: 0px;
+}
+
+#career p {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+}
